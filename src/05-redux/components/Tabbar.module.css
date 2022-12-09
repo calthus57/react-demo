@@ -1,0 +1,25 @@
+.selected{
+    color:red;
+}
+/* css文件命名为module.css 会将里面的类名和id重命名 */
+
+.tabbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightsteelblue;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.tabbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.tabbar li {
+    flex: 1;
+}
+
