@@ -26,7 +26,7 @@ function DTabbar(props) {
     },
     {
       key: '/center',
-      title: '个人中心',
+      title: 'wode',
       icon: <UserOutline />,
     },
   ]
